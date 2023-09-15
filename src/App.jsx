@@ -6,11 +6,14 @@ import Pricing from "./pages/Pricing/Pricing";
 import Contact from "./pages/Contact/Contact";
 import NotFound from "./pages/NotFound/NotFound";
 
+import Header from "./layouts/Header/Header";
+
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <Router>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/pricing" element={<Pricing />} />

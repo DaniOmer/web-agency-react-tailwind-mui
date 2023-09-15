@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import LOGO from "../../assets/logo.png";
 
-const NavBar = () => {
+const Header = () => {
   return (
     <header className="max-w-6xl mx-auto flex justify-between items-center py-3">
       <img className="w-40 m-0" src={LOGO} alt="Lafia Studio" />
       <nav className="flex justify-center gap-8">
+        <Link to="/">Home</Link>
         <Link to="/pricing">Pricing</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
@@ -18,4 +19,4 @@ const NavBar = () => {
     </header>
   );
 };
-export default NavBar;
+export default Header;

@@ -1,6 +1,6 @@
 const RequestForm = ({ action, placeholder, buttonValue }) => {
   return (
-    <form action={action} className="w-max p-1 rounded-3xl bg-gray-200">
+    <form action={action} className="w-max p-1 rounded-3xl bg-gray-200 mt-5">
       <input
         className="focus:outline-none mx-4 bg-transparent"
         type="text"

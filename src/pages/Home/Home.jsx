@@ -1,3 +1,4 @@
+import Achievment from "../../components/Achievment/Achievment";
 import ContactRequest from "../../components/ContactRequest/ContactRequest";
 import NavBar from "../../components/NavBar/NavBar";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div className="w-full">
       <NavBar />
       <ContactRequest />
+      <Achievment />
     </div>
   );
 };

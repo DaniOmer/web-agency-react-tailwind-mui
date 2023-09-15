@@ -3,7 +3,7 @@ import LOGO from "../../assets/logo.png";
 
 const NavBar = () => {
   return (
-    <header className="max-w-7xl mx-auto flex justify-between items-center py-3">
+    <header className="max-w-6xl mx-auto flex justify-between items-center py-3">
       <img className="w-40 m-0" src={LOGO} alt="Lafia Studio" />
       <nav className="flex justify-center gap-8">
         <Link to="/pricing">Pricing</Link>

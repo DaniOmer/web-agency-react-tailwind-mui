@@ -9,8 +9,8 @@ import { LuPackageCheck } from "react-icons/lu";
 
 const Service = () => {
   return (
-    <section className="max-w-6xl mx-auto text-center mt-24">
-      <h1 className="text-4xl mb-6">Services</h1>
+    <section className="max-w-6xl mx-auto mt-24">
+      <h1 className="text-4xl mb-6 text-center">Services</h1>
       <div className="grid grid-cols-3 p-4 gap-6">
         <ServiceCard
           icon={<HiOutlineLightBulb />}

@@ -41,6 +41,7 @@ const ClientReview = () => {
             review={slide.review}
             author={slide.author}
             authorInformations={slide.authorInformations}
+            key={index}
           />
         ) : null;
       })}

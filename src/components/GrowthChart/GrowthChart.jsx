@@ -5,7 +5,7 @@ import Tooltip from "@mui/material/Tooltip";
 
 const GrowthChart = () => {
   return (
-    <section className="max-w-6xl mx-auto mt-24">
+    <section className="w-11/12 max-w-6xl mx-auto mt-24">
       <h1 className="text-4xl mb-6 text-center">
         How company build impressive brand ?
       </h1>

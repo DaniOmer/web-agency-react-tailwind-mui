@@ -2,9 +2,9 @@ import { BiSolidQuoteAltRight } from "react-icons/bi";
 
 const ClientReviewCard = ({ image, review, author, authorInformations }) => {
   return (
-    <div className="w-2/3 mx-auto flex gap-8 mt-16">
+    <div className="lg:w-2/3 mx-auto flex flex-col md:flex-row gap-8 mt-16">
       <img
-        className="max-w-full w-2/5 rounded-tr-3xl rounded-br-lg"
+        className="max-w-full md:w-2/5 lg:w-3/5 rounded-tr-3xl rounded-br-lg"
         src={image}
         alt="Client"
       />

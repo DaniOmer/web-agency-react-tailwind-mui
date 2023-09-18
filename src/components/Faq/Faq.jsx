@@ -1,4 +1,4 @@
-import FaqCard from "./FaqCard";
+import CustomAccordion from "../CustomAccordion/CustomAccordion";
 
 const Faq = () => {
   const data = [
@@ -30,14 +30,14 @@ const Faq = () => {
     },
   ];
   return (
-    <section className="max-w-6xl mx-auto mt-24">
+    <section className="w-11/12 max-w-6xl mx-auto mt-24">
       <h1 className="text-4xl mb-6 text-center">FAQs</h1>
       <div className="flex flex-col gap-6">
         {data.map((faq, index) => {
           return (
-            <FaqCard
-              question={faq.question}
-              answer={faq.answer}
+            <CustomAccordion
+              title={faq.question}
+              description={faq.answer}
               index={index}
               key={index}
             />

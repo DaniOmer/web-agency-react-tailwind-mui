@@ -1,6 +1,6 @@
 const RecentClient = () => {
   return (
-    <section className="max-w-6xl mx-auto flex mt-24 p-4 gap-40">
+    <section className="w-11/12 max-w-6xl mx-auto flex flex-col md:flex-row justify-center items-center mt-24 gap-8 md:gap-40">
       <div className="flex items-center gap-2">
         <div className="border-2 border-black w-20 h-0"></div>
         <p>Meet our recent client</p>
@@ -9,9 +9,6 @@ const RecentClient = () => {
         <p>Apple</p>
         <p>Tesla</p>
         <p>Amazon</p>
-        <p>Facebook</p>
-        <p>Ledger</p>
-        <p>Web 3</p>
       </div>
     </section>
   );

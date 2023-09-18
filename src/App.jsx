@@ -7,6 +7,7 @@ import Contact from "./pages/Contact/Contact";
 import NotFound from "./pages/NotFound/NotFound";
 
 import Header from "./layouts/Header/Header";
+import Footer from "./layouts/Footer/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

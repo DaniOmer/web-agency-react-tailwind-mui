@@ -30,7 +30,7 @@ const Faq = () => {
     },
   ];
   return (
-    <section className="w-11/12 max-w-6xl mx-auto mt-24">
+    <section className="w-11/12 max-w-6xl mx-auto mt-24 pb-24">
       <h1 className="text-4xl mb-6 text-center">FAQs</h1>
       <div className="flex flex-col gap-6">
         {data.map((faq, index) => {

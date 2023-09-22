@@ -8,7 +8,7 @@ import RequestForm from "../../components/RequestForm/RequestForm";
 
 const Footer = () => {
   return (
-    <footer className="pt-24 pb-4 bg-slate-400 mt-24">
+    <footer className="pt-24 pb-4 bg-slate-400 dark:bg-slate-950 dark:text-white">
       <div className="w-11/12 max-w-6xl mx-auto">
         <div className="w-full flex flex-col items-center md:flex-row justify-between mb-8 md:mb-28 gap-6 text-center">
           <h1 className="text-xl md:text-3xl">

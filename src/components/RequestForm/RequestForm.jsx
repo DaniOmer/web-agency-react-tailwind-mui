@@ -5,7 +5,7 @@ const RequestForm = ({ action, placeholder, buttonValue }) => {
       className="w-max p-1 rounded-3xl bg-gray-200 mt-5 text-sm"
     >
       <input
-        className="focus:outline-none mx-4 bg-transparent"
+        className="focus:outline-none mx-4 bg-transparent dark:text-black"
         type="text"
         placeholder={placeholder}
       />

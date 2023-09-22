@@ -9,7 +9,7 @@ import Work from "../../components/Work/Work";
 
 const Home = () => {
   return (
-    <div className="w-full">
+    <div className="w-full dark:bg-slate-950 dark:text-white">
       <ContactRequest />
       <Achievment />
       <RecentClient />

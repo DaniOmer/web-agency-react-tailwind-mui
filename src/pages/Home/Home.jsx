@@ -9,16 +9,15 @@ import Work from "../../components/Work/Work";
 
 const Home = () => {
   return (
-    <div className="w-full dark:bg-slate-950 dark:text-white">
+    <main className="w-full dark:bg-slate-950 dark:text-white">
       <ContactRequest />
       <Achievment />
       <RecentClient />
       <Service />
       <Work />
-      {/* <GrowthChart /> */}
       <ClientReview />
       <Faq />
-    </div>
+    </main>
   );
 };
 export default Home;

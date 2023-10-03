@@ -1,4 +1,6 @@
 import { useState } from "react";
+import i18next from "i18next";
+import { useSelector } from "react-redux";
 
 import ClientReviewCard from "./ClientReviewCard";
 import IMAGE from "../../assets/client.jpg";
@@ -9,6 +11,9 @@ import CLIENT_4 from "../../assets/client-4.jpg";
 import { BsArrowRightCircle, BsArrowLeftCircle } from "react-icons/bs";
 
 const ClientReview = () => {
+  const currentLanguage = useSelector(
+    (state) => state.language.currentLanguage
+  );
   const slides = [
     {
       image: IMAGE,
@@ -36,7 +41,9 @@ const ClientReview = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   return (
     <section className="w-11/12 max-w-6xl mx-auto mt-24 bg-slate-400 dark:bg-slate-900 p-10 lg:p-2 rounded-tl-xl rounded-tr-xl rounded-br-xl rounded-bl-3xl">
-      <h1 className="text-4xl mb-6 text-center">Clients reviews</h1>
+      <h1 className="text-4xl mb-6 text-center">
+        {i18next.t("clientReview", { lng: currentLanguage })}
+      </h1>
       {slides.map((slide, index) => {
         return currentSlide === index ? (
           <ClientReviewCard

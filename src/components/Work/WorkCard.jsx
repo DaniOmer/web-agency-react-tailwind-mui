@@ -1,6 +1,12 @@
 import { BsArrowRight } from "react-icons/bs";
 
+import i18next from "i18next";
+import { useSelector } from "react-redux";
+
 const WorkCard = ({ image, category, title, description }) => {
+  const currentLanguage = useSelector(
+    (state) => state.language.currentLanguage
+  );
   return (
     <div className="w-full rounded-lg flex flex-col items-start  max-h-max">
       <img src={image} alt="Recent work" className="rounded-lg mb-4" />
@@ -13,7 +19,7 @@ const WorkCard = ({ image, category, title, description }) => {
         className="mt-5 flex items-center gap-3 text-blue-600 border-b-2 border-blue-600"
         href="#"
       >
-        Read more
+        {i18next.t("readMore", { lng: currentLanguage })}
         <BsArrowRight />
       </a>
     </div>

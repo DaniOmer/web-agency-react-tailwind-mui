@@ -22,7 +22,7 @@ export default function CustomSwitch() {
 
   return (
     <div
-      className="flex border-2 border-black rounded-3xl relative cursor-pointer dark:border-blue-600"
+      className="flex border-2 border-black rounded-3xl relative cursor-pointer dark:border-blue-600 box-border"
       onClick={handleCustomSwitchClick}
     >
       <span

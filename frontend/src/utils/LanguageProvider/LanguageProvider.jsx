@@ -45,7 +45,7 @@ function LanguageProvider({ children }) {
           "Crafting your distinctive brand story through our brand identity expertise",
         seo: "SEO Optimization",
         seoDesc:
-          "Boost your online visibility and dominate search results with our SEO optimization expertise.",
+          "Boost your online visibility and dominate search results with our SEO optimization expertise",
         package: "Packaging design",
         packageDesc:
           "Enhance your product presentation with our innovative packaging designs",
@@ -91,7 +91,7 @@ function LanguageProvider({ children }) {
         viewAll: "Voir plus",
         logo: "Conception de logo",
         logoDesign:
-          "Débloquez le potentiel de votre marque avec notre expertise en conception de logo.",
+          "Débloquez le potentiel de votre marque avec notre expertise en conception de logo",
         uiDesign: "Conception UI/UX",
         uiDesignDesc:
           "Élevez les expériences utilisateur avec notre excellence en conception UI/UX",
@@ -103,7 +103,7 @@ function LanguageProvider({ children }) {
           "Élaboration de l'histoire distinctive de votre marque grâce à notre expertise en identité de marque",
         seo: "Optimisation SEO",
         seoDesc:
-          "Augmentez votre visibilité en ligne et dominez les résultats de recherche grâce à notre expertise en optimisation SEO.",
+          "Augmentez votre visibilité en ligne et dominez les résultats de recherche grâce à notre expertise en optimisation SEO",
         package: "Conception d'emballage",
         packageDesc:
           "Rehaussez la présentation de vos produits avec nos designs d'emballage innovants",

@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import About from "./pages/About/About";
-import Pricing from "./pages/Pricing/Pricing";
+import Blog from "./pages/Blog/Blog";
+import Studio from "./pages/Studio/Studio";
 import Contact from "./pages/Contact/Contact";
 import NotFound from "./pages/NotFound/NotFound";
 
@@ -17,7 +17,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/blog" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/studio" element={<Studio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
